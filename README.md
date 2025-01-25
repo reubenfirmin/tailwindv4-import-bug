@@ -1,3 +1,7 @@
+0) Init NPM into non-standard location.
+
+`mkdir -p build/js && cd build/js && npm init -y && cd ../..`
+
 1) Install tailwind into non-standard node_modules location (like gradle does)
 
 `npm install --prefix build/js tailwindcss @tailwindcss/cli`
